@@ -2,6 +2,7 @@ import About from "@/components/About";
 import DistributionTransparency from "@/components/DistributionTransparency";
 import Help from "@/components/Help";
 import OnlineServices from "@/components/OnlineServices";
+import BaseBtn from "@/components/ui/BaseBtn";
 import СollectingMoney from "@/components/СollectingMoney";
 import Image from "next/image";
 
@@ -57,9 +58,7 @@ export default function Home() {
                 />
               </svg>
 
-              <p className="font-medium text-[20px]">
-                Опытная Команда
-              </p>
+              <p className="font-medium text-[20px]">Опытная Команда</p>
 
               <p className="mt-[12px] text-start text-[#8A8A8A] text-[14px]">
                 Более 7 лет работы в благотворительности
@@ -88,41 +87,7 @@ export default function Home() {
                 />
               </svg>
 
-              <p className="font-medium text-[20px]">
-                Опытная Команда
-              </p>
-
-              <p className="mt-[12px] text-start text-[#8A8A8A] text-[14px]">
-                Более 7 лет работы в благотворительности
-              </p>
-            </div>
-
-
-            <div className="max-w-[312px] w-full border border-[#F8FAFC] p-[20px] rounded-[8px]">
-              <svg
-                width="56"
-                height="56"
-                viewBox="0 0 56 56"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="28"
-                  cy="28"
-                  r="27.5"
-                  fill="#FAFAFA"
-                  stroke="#E3E3E3"
-                />
-                <path
-                  d="M18.375 30.75H27.125C27.788 30.75 28.4237 31.0136 28.8926 31.4824C29.3614 31.9513 29.625 32.587 29.625 33.25C29.625 34.4788 28.8797 35.538 27.6357 36.2979C26.3917 37.0542 24.6652 37.5 22.75 37.5C20.8346 37.5 19.1073 37.0543 17.8633 36.2979C16.6187 35.5385 15.875 34.4792 15.875 33.25C15.875 32.587 16.1386 31.9513 16.6074 31.4824C17.0763 31.0136 17.712 30.75 18.375 30.75ZM38.4678 30.75L38.6787 30.7607C39.0738 30.8045 39.4394 30.9909 39.7061 31.2861C39.9756 31.5847 40.1249 31.9728 40.125 32.375C40.125 33.2835 39.5717 34.1261 38.6426 34.7451L38.6416 34.7461C37.7166 35.3637 36.4281 35.75 35 35.75C34.2885 35.75 33.611 35.6505 32.9932 35.4756C33.2337 34.7932 33.373 34.0505 33.373 33.25C33.373 32.3597 33.1847 31.5148 32.8486 30.75H38.4678ZM22.75 19.375C23.7611 19.375 24.7313 19.7762 25.4463 20.4912C26.1613 21.2062 26.5625 22.1764 26.5625 23.1875C26.5625 24.1986 26.1613 25.1688 25.4463 25.8838C24.7313 26.5988 23.7611 27 22.75 27C21.7389 27 20.7687 26.5988 20.0537 25.8838C19.3387 25.1688 18.9375 24.1986 18.9375 23.1875C18.9375 22.1764 19.3387 21.2062 20.0537 20.4912C20.7239 19.821 21.6184 19.4267 22.5605 19.3799L22.75 19.375ZM35.0244 21.1191C35.4158 21.1109 35.805 21.1811 36.1689 21.3252C36.5329 21.4693 36.8649 21.6842 37.1445 21.958C37.4242 22.2318 37.6462 22.5591 37.7979 22.9199C37.9495 23.2807 38.0273 23.6682 38.0273 24.0596C38.0273 24.4509 37.9494 24.8385 37.7979 25.1992C37.6462 25.5599 37.4241 25.8873 37.1445 26.1611C36.8648 26.435 36.5329 26.6509 36.1689 26.7949C35.805 26.9389 35.4157 27.0082 35.0244 27C34.2554 26.9837 33.5235 26.6668 32.9854 26.1172C32.4472 25.5675 32.1455 24.8288 32.1455 24.0596C32.1456 23.2904 32.4472 22.5515 32.9854 22.002C33.5235 21.4525 34.2555 21.1354 35.0244 21.1191Z"
-                  stroke="black"
-                  strokeWidth="2"
-                />
-              </svg>
-
-              <p className="font-medium text-[20px]">
-                Опытная Команда
-              </p>
+              <p className="font-medium text-[20px]">Опытная Команда</p>
 
               <p className="mt-[12px] text-start text-[#8A8A8A] text-[14px]">
                 Более 7 лет работы в благотворительности
@@ -151,22 +116,125 @@ export default function Home() {
                 />
               </svg>
 
-              <p className="font-medium text-[20px]">
-                Опытная Команда
-              </p>
+              <p className="font-medium text-[20px]">Опытная Команда</p>
 
               <p className="mt-[12px] text-start text-[#8A8A8A] text-[14px]">
                 Более 7 лет работы в благотворительности
               </p>
             </div>
 
+            <div className="max-w-[312px] w-full border border-[#F8FAFC] p-[20px] rounded-[8px]">
+              <svg
+                width="56"
+                height="56"
+                viewBox="0 0 56 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="28"
+                  cy="28"
+                  r="27.5"
+                  fill="#FAFAFA"
+                  stroke="#E3E3E3"
+                />
+                <path
+                  d="M18.375 30.75H27.125C27.788 30.75 28.4237 31.0136 28.8926 31.4824C29.3614 31.9513 29.625 32.587 29.625 33.25C29.625 34.4788 28.8797 35.538 27.6357 36.2979C26.3917 37.0542 24.6652 37.5 22.75 37.5C20.8346 37.5 19.1073 37.0543 17.8633 36.2979C16.6187 35.5385 15.875 34.4792 15.875 33.25C15.875 32.587 16.1386 31.9513 16.6074 31.4824C17.0763 31.0136 17.712 30.75 18.375 30.75ZM38.4678 30.75L38.6787 30.7607C39.0738 30.8045 39.4394 30.9909 39.7061 31.2861C39.9756 31.5847 40.1249 31.9728 40.125 32.375C40.125 33.2835 39.5717 34.1261 38.6426 34.7451L38.6416 34.7461C37.7166 35.3637 36.4281 35.75 35 35.75C34.2885 35.75 33.611 35.6505 32.9932 35.4756C33.2337 34.7932 33.373 34.0505 33.373 33.25C33.373 32.3597 33.1847 31.5148 32.8486 30.75H38.4678ZM22.75 19.375C23.7611 19.375 24.7313 19.7762 25.4463 20.4912C26.1613 21.2062 26.5625 22.1764 26.5625 23.1875C26.5625 24.1986 26.1613 25.1688 25.4463 25.8838C24.7313 26.5988 23.7611 27 22.75 27C21.7389 27 20.7687 26.5988 20.0537 25.8838C19.3387 25.1688 18.9375 24.1986 18.9375 23.1875C18.9375 22.1764 19.3387 21.2062 20.0537 20.4912C20.7239 19.821 21.6184 19.4267 22.5605 19.3799L22.75 19.375ZM35.0244 21.1191C35.4158 21.1109 35.805 21.1811 36.1689 21.3252C36.5329 21.4693 36.8649 21.6842 37.1445 21.958C37.4242 22.2318 37.6462 22.5591 37.7979 22.9199C37.9495 23.2807 38.0273 23.6682 38.0273 24.0596C38.0273 24.4509 37.9494 24.8385 37.7979 25.1992C37.6462 25.5599 37.4241 25.8873 37.1445 26.1611C36.8648 26.435 36.5329 26.6509 36.1689 26.7949C35.805 26.9389 35.4157 27.0082 35.0244 27C34.2554 26.9837 33.5235 26.6668 32.9854 26.1172C32.4472 25.5675 32.1455 24.8288 32.1455 24.0596C32.1456 23.2904 32.4472 22.5515 32.9854 22.002C33.5235 21.4525 34.2555 21.1354 35.0244 21.1191Z"
+                  stroke="black"
+                  strokeWidth="2"
+                />
+              </svg>
+
+              <p className="font-medium text-[20px]">Опытная Команда</p>
+
+              <p className="mt-[12px] text-start text-[#8A8A8A] text-[14px]">
+                Более 7 лет работы в благотворительности
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
+      <section className="mt-[90px]">
+        <DistributionTransparency />
+      </section>
 
       <section className="mt-[90px]">
-          <DistributionTransparency/>
+        <div className="container">
+          <div className="flex items-center justify-between ">
+            <h2 className="text-[48px] font-medium leading-[62px] text-[#000000] max-w-[582px] w-full text-start">
+              Один сом — одно большое добро
+            </h2>
+            <BaseBtn
+              text="Узнать больше"
+              className="bg-black text-white px-[24px] py-[12px]"
+            />
+          </div>
+
+          <div className="mt-[48px] flex items-cenetr justify-between ">
+            <div className="max-w-[573px] w-full">
+              <p>
+                Мы показываем, что даже 1 сом от каждого человека может изменить
+                чью-то жизнь. Присоединяйтесь к нашей миссии помощи тем, кто в
+                ней нуждается.
+              </p>
+
+              <div className="max-w-[441px] w-full  mt-[32px] flex items-center gap-[12px] flex-wrap">
+                <BaseBtn
+                  text="Пожертвовать 1 сом"
+                  className="text-[16px] font-medium bg-[#010BFF] px-[24px] py-[12px] text-white  "
+                />
+
+                <BaseBtn
+                  text="100 сом"
+                  className="text-[16px] font-medium bg-[#F8FAFC] px-[24px] py-[12px] text-black   "
+                />
+
+                <BaseBtn
+                  text="200 сом"
+                  className="text-[16px] font-medium bg-[#F8FAFC] px-[24px] py-[12px] text-black   "
+                />
+
+                <BaseBtn
+                  text="200 сом"
+                  className="text-[16px] font-medium bg-[#F8FAFC] px-[24px] py-[12px] text-black   "
+                />
+
+                <BaseBtn
+                  text="Своя сумма"
+                  className="text-[16px] font-medium bg-[#F8FAFC] px-[24px] py-[12px] text-black   "
+                />
+              </div>
+            </div>
+
+            <div className="">
+              <img className="max-w-[539px] w-full" src="/png/v2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-[90px]">
+        <div className="container">
+          <div className="flex items-center justify-between bg-[#F8FAFC] p-[48px] rounded-[20px]">
+            <div className="max-w-[697px] w-full">
+              <p className="text-[20px] font-medium ">
+                Сделайте доброе дело сегодня
+              </p>
+              <h2 className="capitalize text-[24px] font-medium mt-[12px]">
+                Ваш 1 сом — это ваш вклад в чью-то лучшую жизнь. Присоединяйтесь
+                к тысячам людей, которые уже помогают.
+              </h2>
+            </div>
+
+            <div className="">
+              <BaseBtn
+                text="Пожертвовать 1 сом"
+                className="text-white text-[16px] bg-black border border-black px-[24px] py-[12px]"
+              />
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
