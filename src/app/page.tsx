@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Help from "@/components/Help";
 import OnlineServices from "@/components/OnlineServices";
 import СollectingMoney from "@/components/СollectingMoney";
@@ -17,6 +18,16 @@ export default function Home() {
       <section className="mt-[50px]">
         <Help/>
       </section>
+
+      <section className="mt-[50px]">
+       <About/>
+      </section>
+
+      {/* <section className="mt-[50px]">
+
+      </section> */}
+
+
 
     </main>
   );
