@@ -52,7 +52,7 @@ export default function Header() {
     const { bg, text,className } = headerData[pathname] || headerData["/"];
   return (
     <header
-      className=" max-h-[730px] bg-no-repeat bg-cover"
+      className=" max-h-[730px] bg-no-repeat bg-cover rounded-b-[40px]"
       style={{
         backgroundImage: `
       linear-gradient(180deg, rgba(0, 0, 0, 0) 49.07%, rgba(0, 0, 0, 0.4) 79.39%),
