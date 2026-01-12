@@ -4,7 +4,6 @@ import Help from "@/components/Help";
 import OnlineServices from "@/components/OnlineServices";
 import BaseBtn from "@/components/ui/BaseBtn";
 import СollectingMoney from "@/components/СollectingMoney";
-import Image from "next/image";
 
 export default function Home() {
   return (
